@@ -1,0 +1,41 @@
+body
+{
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header
+{
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 3px #000;
+
+}
+header li
+{
+    display: inline;
+    padding-left: 30px;
+    top: 15px;
+}
+header li a
+{
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+header li a:hover
+{
+    color: blue;
+}
+#home_botton
+{
+    font-weight: bold;
+}
+h1
+{
+    text-align: center;
+}

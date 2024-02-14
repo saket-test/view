@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify About Page</title>
+    <link rel="stylesheet" href="/static/css/style_home.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="/static/img/logo.png" alt="Spotify"> <a class="navbar_content" href="{{ url_for('home') }}">Spotify</a></li>
+            <li><a class="navbar_content" href="{{ url_for('songs') }}">Songs</a></li>
+            <li><a class="navbar_content" href="{{ url_for('about') }}">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome to Spotify Clone</h1>
+        <p>Discover new music and enjoy your favorite songs with Spotify. Create playlists, explore curated playlists, and connect with artists.</p>
+        <form action="{{ url_for('songs') }}" method="get">
+            <button type="submit">Go to Songs</button>
+        </form>
+    </div>
+</body>
+</html>

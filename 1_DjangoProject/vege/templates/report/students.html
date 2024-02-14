@@ -1,0 +1,152 @@
+{% extends "base.html" %} {% block A %}
+
+<div class="container mt-5 pd-3">
+    <form class="mb-4">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" class="form-control" name="search" placeholder="Search" 
+                {% if search_text %}
+                value="{{search_text}}"
+                {% else %}
+                value=""
+                {% endif %}
+                >
+            </div>
+
+            <div class="col-md-6">
+                <button class="btn btn-success">Search</button>
+            </div>
+        </div>
+    </form>
+
+    {% if messages %} {% for message in messages %}
+    <div class="alert alert-secondary" role="alert">{{ message }}</div>
+    {% endfor %} {% endif %}
+</div>
+<div class="container mt-5">
+
+    <nav aria-label="Page navigation example ">
+        <ul class="pagination">
+
+            {% if queryset.has_previous %}
+            <li class="page-item"><a class="page-link text-secondary" 
+                {% if search_text %}
+                href="?search={{search_text}}&page=1"
+                {% else %}
+                href="?page=1"
+                {% endif %}
+                
+                >&laquo; first</a></li>
+            <li class="page-item"><a class="page-link text-secondary" 
+                {% if search_text %}
+                href="?search={{search_text}}&page={{ queryset.previous_page_number }}"
+                {% else %}
+                href="?page={{ queryset.previous_page_number }}"
+                {% endif %}
+                >previous</a>
+            </li>
+            {% endif %}
+
+            <li class="current rounded" style="text-align: center;" >
+                <p class="page-link rounded" style="background: black; color: white">Page {{ queryset.number }} of {{ queryset.paginator.num_pages }} </p>
+            </li>
+
+            {% if queryset.has_next %}
+            <li class="page-item"><a class="page-link text-secondary"
+                {% if search_text %}
+                href="?search={{search_text}}&page={{ queryset.next_page_number }}"
+                {% else %}
+                href="?page={{ queryset.next_page_number }}"
+                {% endif %} 
+                
+                >next</a></li>
+            <li class="page-item"><a class="page-link text-secondary"  
+                {% if search_text %}
+                href="?search={{search_text}}&page={{ queryset.paginator.num_pages }}"
+                {% else %}
+                href="?page={{ queryset.paginator.num_pages }}"
+                {% endif %} 
+                
+                >last &raquo;</a>
+            </li>
+            {% endif %}
+
+        </ul>
+    </nav>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">S.No.</th>
+                <th scope="col">Student ID</th>
+                <th scope="col">Department</th>
+                <th scope="col">Student_name</th>
+                <th scope="col">Student_email</th>
+                <th scope="col">Student_age</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for student in queryset %}
+            <tr>
+                <th scope="row">{{forloop.counter}}</th>
+                <td scope="row">
+                    <a href="{% url "see_marks" student.student_id %}">{{student.student_id}}</a>
+                 </td>
+                <td scope="col">{{student.department}}</td>
+                <td scope="col">{{student.student_name}}</td>
+                <td scope="col">{{student.student_email}}</td>
+                <td scope="col">{{student.student_age}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+
+            {% if queryset.has_previous %}
+            <li class="page-item"><a class="page-link text-secondary" 
+                {% if search_text %}
+                href="?search={{search_text}}&page=1"
+                {% else %}
+                href="?page=1"
+                {% endif %}
+                
+                >&laquo; first</a></li>
+            <li class="page-item"><a class="page-link text-secondary" 
+                {% if search_text %}
+                href="?search={{search_text}}&page={{ queryset.previous_page_number }}"
+                {% else %}
+                href="?page={{ queryset.previous_page_number }}"
+                {% endif %}
+                >previous</a>
+            </li>
+            {% endif %}
+
+            <li class="current" style="text-align: center;" >
+                <p class="page-link rounded" style="background: black; color: white">Page {{ queryset.number }} of {{ queryset.paginator.num_pages }} </p>
+            </li>
+
+            {% if queryset.has_next %}
+            <li class="page-item"><a class="page-link text-secondary"
+                {% if search_text %}
+                href="?search={{search_text}}&page={{ queryset.next_page_number }}"
+                {% else %}
+                href="?page={{ queryset.next_page_number }}"
+                {% endif %} 
+                
+                >next</a></li>
+            <li class="page-item"><a class="page-link text-secondary" 
+                {% if search_text %}
+                href="?search={{search_text}}&page={{ queryset.paginator.num_pages }}"
+                {% else %}
+                href="?page={{ queryset.paginator.num_pages }}"
+                {% endif %} 
+                
+                >last &raquo;</a>
+            </li>
+            {% endif %}
+
+        </ul>
+    </nav>
+</div>
+{% endblock A %}

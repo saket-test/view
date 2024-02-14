@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style_about.css">
+    <title>About Spotify Clone</title>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li class="brand"><img src="/static/img/logo.png" alt="Spotify"> <a class="navbar_content" href="{{ url_for('home') }}">Spotify</a></li>
+          <li><a class="navbar_content" href="{{ url_for('songs') }}">Songs</a></li>
+          <li><a class="navbar_content" href="{{ url_for('about') }}">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="about-section">
+        <h1><b>About Us</b></h1>
+        <p>Welcome to the Spotify Clone website! This project was created to showcase a simplified clone of the popular music streaming service, Spotify.</p>
+        <h3><b>Why did I make this website?</b></h3>
+        <p>As a music enthusiast and a web developer, I wanted to explore and demonstrate my skills by creating a clone of a well-known platform. Spotify provides a great user experience, and attempting to replicate some of its features was both challenging and rewarding.</p>
+        <h3><b>What is Spotify?</b></h3>
+        <p>Spotify is a music streaming service that offers a vast library of songs, playlists, and podcasts. Users can discover, play, and share their favorite music. It provides a seamless and enjoyable way to access a world of music.</p>
+        <p>Feel free to explore the website and enjoy the music!</p>
+        
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/static/img/tom.jpg" alt="Tom" style="width:100%">
+            <div class="container">
+              <h2>Tom</h2>
+              <p class="title">CEO & Founder</p>
+              <p>Runs behind Jerry</p>
+              <p>jane@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/static/img/jerry.jpg" alt="Jerry" style="width:100%">
+            <div class="container">
+              <h2>Jerry</h2>
+              <p class="title">Art Director</p>
+              <p>Runs from Tom.</p>
+              <p>jerry@spotifyclone.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/static/img/doge.jpg" alt="Doge" style="width:100%">
+            <div class="container">
+              <h2>Doge</h2>
+              <p class="title">Designer</p>
+              <p>Chills in the garden.</p>
+              <p>doge@spotifyclone.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="/static/js/script_about.js"></script>
+</body>
+</html>

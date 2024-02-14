@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            let answerSelected = false;
+            // TODO: Add code to check answers to questions
+            function checkAnswer(button, selectedAnswer) {
+                if (answerSelected)
+                {
+                    return;
+                }
+                const correctAnswer = 'delhi';
+
+                if (selectedAnswer === correctAnswer)
+                {
+                    document.getElementById('result').innerHTML = 'Correct!';
+                    button.style.backgroundColor = 'green';
+                }
+                else
+                {
+                    document.getElementById('result').innerHTML = 'Incorrect.';
+                    button.style.backgroundColor = 'red';
+                }
+                answerSelected = true;
+            }
+            function checkFreeResponse() {
+                const userResponse = document.getElementById('responseInput').value;
+
+                const correctAnswer = 'delhi';
+
+                if (userResponse.toLowerCase() === correctAnswer)
+                {
+                    document.getElementById('responseInput').style.backgroundColor = 'green';
+                    document.getElementById('result2').innerHTML = 'Correct!';
+                }
+                else
+                {
+                    document.getElementById('responseInput').style.backgroundColor = 'red';
+                    document.getElementById('result2').innerHTML = 'Incorrect';
+                }
+
+                // Disable the input field and button after confirming the answer
+                document.getElementById('responseInput').disabled = true;
+                document.querySelector('button').disabled = true;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is capital of India?</h3>
+                <button onclick="checkAnswer(this, 'mumbai')">Mumbai</button>
+                <button onclick="checkAnswer(this, 'delhi')">Delhi</button>
+                <button onclick="checkAnswer(this, 'bangalore')">Bangalore</button>
+                <div id="result"></div>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What is capital of India?</h3>
+                <input type="text" id="responseInput">
+                <button onclick="checkFreeResponse()">Confirm Answer</button>
+                <div id="result2"></div>
+            </div>
+        </div>
+    </body>
+</html>

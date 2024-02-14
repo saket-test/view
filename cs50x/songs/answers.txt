@@ -1,0 +1,13 @@
+1.{
+    So, if the average energy is high, valence is positive, and danceability is high,
+    the audio aura might be characterized as energetic, positive, and danceable.
+    We can make a chart of colour (RGB), where the level of each mood is converted into range of 0 and 255.
+}
+
+2.{
+    This can give somewhat wrong result as data size is only 100 and it generalizes the music taste.
+
+    We can improve this by giving more importance to songs based on number of times they have been played.
+    The time of day matters alot as slow songs are more prefered for sleeping and hype songs for morning.
+}
+
