@@ -1,2 +1,2 @@
-# view
-Projects made while learning
+# Hello 
+You will find the projects that I made while learning
