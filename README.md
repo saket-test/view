@@ -1,6 +1,6 @@
 ### Hey there 👋
 
-I'm Saket 
+I'm Saket, Experienced in full-stack development with expertise in Python, Django, Node.js, and React JS. Skilled in database management with MySQL, SQLite, and MongoDB. Proficient in machine learning with Scikit-learn and TensorFlow. Developed impactful projects like social media analytics tools and voting survey platforms, optimizing processes through automation and efficient API integrations
 
 <table><tr><td valign="top" width="33%">
 
@@ -66,15 +66,10 @@ I'm Saket
 
 ## LeetCode Stats
 
-![LeetCode Stats](https://leetcode-badge-showcase.herokuapp.com/api?username=sakettest999)
-
-## Alternative LeetCode Stats
-
-![LeetCode Stats](https://leetcode-readme-stats.vercel.app/api?username=sakettest999)
+![LeetCode Stats](https://leetcard.jacoblin.cool/sakettest999?theme=light&font=Noto%20Sans%20Wancho)
 
 
-
-You will find the projects that I made while learning
-Please visit the Master branch
+## Thanks for reading till the end!
+You will find the projects that I made while learning by visiting the "Master" branch
 
 Thanks!!
