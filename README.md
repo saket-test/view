@@ -108,6 +108,6 @@ I'm Saket, Experienced in full-stack development with expertise in Python, Djang
 
 
 ## Thanks for reading till the end!
-You will find the projects that I made while learning by visiting the "Master" branch
+You will find the projects that I made while learning by visiting the [master](https://github.com/saket-test/view/tree/master) branch
 
 Thanks!!
