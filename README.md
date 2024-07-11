@@ -68,6 +68,44 @@ I'm Saket, Experienced in full-stack development with expertise in Python, Djang
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/sakettest999?theme=light&font=Noto%20Sans%20Wancho)
 
+## Projects
+
+<h4>Voting Survey Platform</h4>
+<p>
+  Created the backend and admin panel for a mobile app used for surveying, automating assignment and data-entry processes, significantly reducing client workload.
+</p>
+
+<h4>Social Media Report Generator for Data Analytics</h4>
+<p>
+  Developed a website to download CSV, XLSX reports for Facebook, YouTube, Instagram, and Twitter, integrating and managing APIs, and handling data at the database level.
+</p>
+
+<h4>Database Manipulation & Process Automation</h4>
+<p>
+  Automated manual processes for clients on live projects, saving significant daily manual work.
+</p>
+
+<h4>Custom Dashboard and Reporting</h4>
+<p>
+  Designed dashboards and created reports using ORM and SQL Queries, including APIs for mailing reports to end users.
+</p>
+
+<h4>Blog Website</h4>
+<p>
+  Built CRUD APIs for blog management, implementing features like blog listing and creation with error handling.
+</p>
+
+<h4>ML Project</h4>
+<p>
+  Trained and tested different models, focusing on model selection, saving/loading, and data preprocessing.
+</p>
+
+<h4>Recipe Manager and Email Automation</h4>
+<p>
+  Built CRUD functionalities for recipes and reusable email functions, sending emails with attachments from an Excel sheet.
+</p>
+
+
 
 ## Thanks for reading till the end!
 You will find the projects that I made while learning by visiting the "Master" branch
