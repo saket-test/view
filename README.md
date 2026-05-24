@@ -1,13 +1,28 @@
-### Hey there 👋
+# Hey, I'm Saket Kadian 👋
 
-I'm Saket, Experienced in full-stack development with expertise in Python, Django, Node.js, and React JS. Skilled in database management with MySQL, SQLite, and MongoDB. Proficient in machine learning with Scikit-learn and TensorFlow. Developed impactful projects like social media analytics tools and voting survey platforms, optimizing processes through automation and efficient API integrations
+Backend & AI Systems Engineer with 4+ years building production APIs, multi-agent AI systems, and cloud infrastructure on AWS. Currently based in India, open to roles in Ireland and internationally.
+
+**Open to Critical Skills Employment Permit sponsorship (Ireland — Software Developer category)**
+
+---
+
+## 🚀 What I Build
+
+- **Multi-agent AI systems** — orchestrator/monitor/analyst agents with RAG, Vector DB, long-term memory, observability
+- **Production backend APIs** — FastAPI + PostgreSQL microservices handling 10M+ records
+- **AWS cloud infrastructure** — EC2, RDS, S3, Lambda, DMS, CI/CD pipelines
+- **Business automation** — cross-department workflows, reporting platforms, third-party API integrations
+
+**Live products:** [zivoro.ai](https://zivoro.ai) | [sariskafarmstay.com](https://sariskafarmstay.com)
+
+---
+
+## 🛠️ Tech Stack
 
 <table><tr><td valign="top" width="33%">
 
 <div align="center">  
-  <p style="margin: auto;">
-    Frontend Development
-  </p>
+  <p style="margin: auto;">Frontend</p>
   <a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" height="50" /></a>  
   <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" height="50" /></a>  
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" height="50" /></a>  
@@ -19,27 +34,19 @@ I'm Saket, Experienced in full-stack development with expertise in Python, Djang
 </td><td valign="top" width="33%">
 
 <div align="center">  
-  <p style="margin: auto;">
-    Backend Development
-  </p>
-  <a href="https://www.cprogramming.com/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" height="50" /></a>  
-  <a href="https://www.w3schools.com/cpp/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" height="50" /></a>  
+  <p style="margin: auto;">Backend & Databases</p>
   <a href="https://www.python.org" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" height="50" /></a>  
-  <a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" height="50" /></a>  
+  <a href="https://www.djangoproject.com/" target="_blank"><img style="margin: 10px" src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" height="50" /></a>  
+  <a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
+  <a href="https://www.postgresql.org" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" /></a>  
   <a href="https://www.mongodb.com/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" height="50" /></a>  
   <a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>  
-  <a href="https://www.postgresql.org" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" /></a>  
-  <a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
-  <a href="https://www.djangoproject.com/" target="_blank"><img style="margin: 10px" src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" height="50" /></a>  
-  <a href="https://flask.palletsprojects.com/" target="_blank"><img style="margin: 10px" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="Flask" height="50" /></a>  
 </div>
 
 </td><td valign="top" width="33%">
 
 <div align="center">  
-  <p style="margin: auto;">
-    DevOps
-  </p>
+  <p style="margin: auto;">Cloud & DevOps</p>
   <a href="https://aws.amazon.com" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" /></a>  
   <a href="https://www.docker.com/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" height="50" /></a>  
   <a href="https://git-scm.com/" target="_blank"><img style="margin: 10px" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" height="50" /></a>  
@@ -52,62 +59,40 @@ I'm Saket, Experienced in full-stack development with expertise in Python, Djang
 <table><tr><td valign="top" width="33%">
 
 <div align="center">  
-  <p style="margin: auto;">
-    Data Science & Machine Learning
-  </p>
-  <a href="https://www.chartjs.org" target="_blank"><img style="margin: 10px" src="https://www.chartjs.org/media/logo-title.svg" alt="Chart.js" height="50" /></a>  
+  <p style="margin: auto;">AI & Machine Learning</p>
   <a href="https://pandas.pydata.org/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" height="50" /></a>  
-  <a href="https://seaborn.pydata.org/" target="_blank"><img style="margin: 10px" src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" height="50" /></a>  
-  <a href="https://www.tensorflow.org" target="_blank"><img style="margin: 10px" src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" height="50" /></a>  
   <a href="https://scikit-learn.org/" target="_blank"><img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-Learn" height="50" /></a>  
+  <a href="https://www.tensorflow.org" target="_blank"><img style="margin: 10px" src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" height="50" /></a>  
 </div>
 
 </td></tr></table>
 
-## LeetCode Stats
+---
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/sakettest999?theme=light&font=Noto%20Sans%20Wancho)
+## 💼 Experience
 
-## Projects
+**Arshiya Infosolutions — Tech Consultant (Lead)** *(Feb 2026 – Present)*
+> Built production multi-agent AI system with RAG, Vector DB, multi-tenant architecture, prompt caching, long-term memory, and full observability logging
 
-<h4>Voting Survey Platform</h4>
-<p>
-  Created the backend and admin panel for a mobile app used for surveying, automating assignment and data-entry processes, significantly reducing client workload.
-</p>
+**The Rainmakers — Software Developer** *(Sep 2024 – Jan 2026)*
+> Led team of 4 building microservices POS platform on AWS (EC2, RDS, S3). Improved API performance via Redis caching — 50% webstore score increase. [zivoro.ai](https://zivoro.ai)
 
-<h4>Social Media Report Generator for Data Analytics</h4>
-<p>
-  Developed a website to download CSV, XLSX reports for Facebook, YouTube, Instagram, and Twitter, integrating and managing APIs, and handling data at the database level.
-</p>
+**AIS Digitech — Software Developer** *(Mar 2023 – Sep 2024)*
+> Built social media analytics platform integrating 4 APIs, automated reporting saving 45 min/day. Engineered survey backend handling 10M+ voter records.
 
-<h4>Database Manipulation & Process Automation</h4>
-<p>
-  Automated manual processes for clients on live projects, saving significant daily manual work.
-</p>
+**ER Auto Pvt Ltd — IT Consultant** *(Jun 2022 – Mar 2023)*
+> Automated cross-department workflows; cut data entry errors by 60% and decision lag from 3 days to same-day
 
-<h4>Custom Dashboard and Reporting</h4>
-<p>
-  Designed dashboards and created reports using ORM and SQL Queries, including APIs for mailing reports to end users.
-</p>
+---
 
-<h4>Blog Website</h4>
-<p>
-  Built CRUD APIs for blog management, implementing features like blog listing and creation with error handling.
-</p>
+## 📦 Projects
 
-<h4>ML Project</h4>
-<p>
-  Trained and tested different models, focusing on model selection, saving/loading, and data preprocessing.
-</p>
+**[Sariska Farmstay Estate](https://sariskafarmstay.com)** — Full-stack hospitality platform with Django, AWS S3, custom booking system and WhatsApp confirmation flow
 
-<h4>Recipe Manager and Email Automation</h4>
-<p>
-  Built CRUD functionalities for recipes and reusable email functions, sending emails with attachments from an Excel sheet.
-</p>
+---
 
+## 📫 Contact
 
-
-## Thanks for reading till the end!
-You will find the projects that I made while learning by visiting the [master](https://github.com/saket-test/view/tree/master) branch
-
-Thanks!!
+- 📧 saketkadian1998@gmail.com
+- 💼 [linkedin.com/in/saket-kadian-095592178](https://linkedin.com/in/saket-kadian-095592178)
+- 📱 +91 9810135708 (WhatsApp)
